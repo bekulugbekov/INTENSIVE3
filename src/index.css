@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --animate-slow-zoom: slow-zoom 20s ease-out infinite alternate;
+  
+  --color-dark-bg: #1A1D23;
+  --color-dark-surface: #242830;
+  --color-dark-text: #EAEAEA;
+  --color-dark-muted: #A0AEC0;
+
+  @keyframes slow-zoom {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+.bg-site-gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+}
+
+.dark .bg-site-gradient {
+  background: linear-gradient(180deg, var(--color-dark-bg) 0%, #14161a 100%);
+}
+
+button, 
+[role="button"],
+a,
+select,
+input[type="submit"],
+input[type="button"],
+.cursor-pointer {
+  cursor: pointer !important;
+}

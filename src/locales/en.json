@@ -1,0 +1,177 @@
+{
+  "home": "Home",
+  "courses": "Courses",
+  "about": "About Us",
+  "contact": "Contact",
+  "language": "Language",
+  "theme": "Theme",
+  "enroll": "Enroll",
+  "hero_title": "Learn German quickly and professionally!",
+  "hero_desc": "Opportunities for study and work in Germany, certified teachers, and fast results.",
+  "consultation": "Get Consultation",
+  "courses_title": "Our Courses",
+  "about_title": "About Us",
+  "gallery_title": "Photo Gallery",
+  "gallery_img1": "Berlin city view",
+  "gallery_img2": "Study process",
+  "gallery_img3": "German architecture",
+  "gallery_img4": "Research in the library",
+  "gallery_img5": "Munich streets",
+  "gallery_img6": "International students",
+  "about_desc": "Our training center uses the most effective methods for learning German. Our experienced teachers will help you achieve high results in a short time.",
+  "contact_title": "Contact Us",
+  "contact_desc": "Do you have any questions? Contact us, we will be happy to help you.",
+  "phone": "Phone",
+  "social": "Social Media",
+  "address": "Address",
+  "view_map": "View on Map",
+  "footer_desc": "We use the most effective methods for learning German. Professional preparation for studying and working in Germany.",
+  "footer_links": "Quick Links",
+  "footer_contact": "Contact Us",
+  "footer_copyright": "All rights reserved.",
+  "form_name": "Your Name and Surname",
+  "form_phone": "Your Phone Number",
+  "form_email": "Your Email",
+  "form_contact_method": "Preferred Contact Method",
+  "form_contact_telegram": "Telegram",
+  "form_contact_phone": "Phone Call",
+  "form_course": "Select Course Level",
+  "form_teacher": "Select Teacher",
+  "form_schedule": "Class Schedule",
+  "form_submit": "Submit",
+  "form_sent_title": "Your application has been sent!",
+  "form_sent_desc": "Our operators will contact you soon.",
+  "form_error": "An error occurred, please check the console.",
+  "invalid_phone": "Invalid phone number format",
+  "invalid_email": "Invalid email format",
+  "contact_name": "Your Name",
+  "contact_form_desc": "Have questions? Leave your details and we will contact you soon.",
+  "form_privacy_note": "By clicking the button, you consent to the processing of personal data.",
+  "contact_sent_title": "Your message has been sent!",
+  "testimonials_title": "Testimonials",
+  "testimonials_more": "View More",
+  "view_more": "View More",
+  "show_less": "Show Less",
+  "years_experience": "Years of Excellence",
+  "students_count": "Active Students",
+  "success_rate": "Success Rate",
+  "instructor_title": "Certified Instructor",
+  "close": "Close",
+  "t1_name": "Dilnoza Karimova",
+  "t1_quote": "This center was the best choice for learning German.",
+  "t2_name": "Azizbek Rahimov",
+  "t2_quote": "Thanks to the Intensive German language center, I reached B1 level in a short time.",
+  "t3_name": "Madina Sobirova",
+  "t3_quote": "The classes are very systematic and effective. Especially the speaking exercises helped me a lot.",
+  "t4_name": "Jasur Aliyev",
+  "t4_quote": "The teachers are very attentive, they work with each student individually.",
+  "t5_name": "Gulnora Tursunova",
+  "t5_quote": "I recommend this center to everyone who wants to learn German.",
+  "t6_name": "Bobur Ismoilov",
+  "t6_quote": "The classes are very interesting and full of useful information.",
+  "course_details": "Details",
+  "course_more": "Learn More",
+  "course_less": "Less",
+  "course_curriculum": "Curriculum",
+  "course_outcomes": "Outcomes",
+  "faq_title": "Frequently Asked Questions",
+  "faq_list": [
+    {
+      "q": "How long does it take to learn German?",
+      "a": "It depends on your goals and intensity. Usually, you can master A1 level in 2-3 months, and B1 level in 6-8 months."
+    },
+    {
+      "q": "What format are the classes?",
+      "a": "Our classes are held both offline and online, using interactive methods."
+    },
+    {
+      "q": "Does the center provide a certificate?",
+      "a": "Yes, students who successfully complete the course will receive a certificate from our center."
+    },
+    {
+      "q": "What happens if I miss a class?",
+      "a": "Our classes are recorded and you can review them later."
+    },
+    {
+      "q": "Is there an option to pay in installments?",
+      "a": "Yes, we have the option to pay tuition fees in installments."
+    },
+    {
+      "q": "How many students are in the groups?",
+      "a": "To provide quality education, our groups accept up to 8-12 students."
+    },
+    {
+      "q": "What qualifications do the teachers have?",
+      "a": "All our teachers have international certificates and are specialists with experience in Germany."
+    },
+    {
+      "q": "How can I register?",
+      "a": "You can register through the website or contact us by phone."
+    }
+  ],
+  "courses_list": [
+    { "teacher": "Yoqubjon O‘rinov", "level": "A1", "schedule": ["08:00–10:00 (Tue, Thu, Sat)", "18:00–20:00 (intensive)", "20:00–22:00 (Mon, Wed, Fri)"], "curriculum": "Alphabet, basic grammar, daily conversation.", "outcomes": "Fluent communication at A1 level." },
+    { "teacher": "Foziljon Maxamadaliyev", "level": "A1", "schedule": ["14:00–16:00 (Tue, Thu, Sat)", "16:00–18:00 (Tue, Thu, Sat)"], "curriculum": "Alphabet, basic grammar, daily conversation.", "outcomes": "Fluent communication at A1 level." },
+    { "teacher": "Botir Qudratov", "level": "A2", "schedule": ["16:00–18:00 (Mon, Wed, Fri)", "18:00–20:00 (Mon, Wed, Fri)", "20:00–22:00 (Mon, Wed, Fri)"], "curriculum": "More complex grammar, working with texts.", "outcomes": "Understanding and speaking at A2 level." },
+    { "teacher": "Umar Jovliyev", "level": "A2", "schedule": ["16:00–18:00 (Tue, Thu, Sat)", "18:00–20:00 (intensive)", "20:00–22:00 (Tue, Thu, Sat)"], "curriculum": "More complex grammar, working with texts.", "outcomes": "Understanding and speaking at A2 level." },
+    { "teacher": "Muhayyo Egamberganova", "level": "A1", "schedule": ["11:00–13:00 (intensive)", "14:00–16:00 (intensive)"], "curriculum": "Alphabet, basic grammar, daily conversation.", "outcomes": "Fluent communication at A1 level." },
+    { "teacher": "Xonzodabegim Dadamatova", "level": "B1/B2/A2", "schedule": ["B1: 16:00–18:00 (Tue, Thu, Sat)", "B2: 10:00–12:00 (Tue, Thu, Sat)", "A2: 10:00–12:00 (Mon, Wed, Fri)", "A2: 12:00–13:30 (intensive ind)"], "curriculum": "Complex grammar and academic German for B1/B2 level.", "outcomes": "Fluent communication and writing at B2 level." },
+    { "teacher": "Dildora Fayzullayeva", "level": "A1", "schedule": ["10:00–12:00 (intensive)", "12:00–14:00 (Mon, Wed, Fri)"], "curriculum": "Alphabet, basic grammar, daily conversation.", "outcomes": "Fluent communication at A1 level." }
+  ],
+  "instructors_title": "Our Instructors",
+  "instructor_bio": "Biography",
+  "instructor_qualifications": "Qualifications & Certificates",
+  "instructor_testimonial": "Student Feedback",
+  "view_profile": "View Profile",
+  "instructors": [
+    {
+      "name": "Yoqubjon O‘rinov",
+      "photo": "https://i.pravatar.cc/300?u=yoqubjon",
+      "bio": "German language specialist with 5 years of experience. Trained in Germany.",
+      "qualifications": ["Goethe-Zertifikat C1", "Graduate of UzSWLU", "DAAD Scholarship recipient"],
+      "testimonial": "Yoqubjon's classes are very interactive and easy to understand."
+    },
+    {
+      "name": "Foziljon Maxamadaliyev",
+      "photo": "https://i.pravatar.cc/300?u=foziljon",
+      "bio": "Specialist in grammar and conversation. 4 years of teaching experience.",
+      "qualifications": ["TestDaF 4x4", "German Philology"],
+      "testimonial": "Grammar is learned very easily with teacher Foziljon."
+    },
+    {
+      "name": "Botir Qudratov",
+      "photo": "https://i.pravatar.cc/300?u=botir",
+      "bio": "Expert in A2 and B1 levels. Extensive experience in preparing students for exams.",
+      "qualifications": ["ÖSD Zertifikat B2", "International teaching methodology"],
+      "testimonial": "With Botir, you don't have to be afraid of exams."
+    },
+    {
+      "name": "Umar Jovliyev",
+      "photo": "https://i.pravatar.cc/300?u=umar",
+      "bio": "Specialist in intensive courses. For those who want quick results.",
+      "qualifications": ["Goethe-Zertifikat B2", "Pedagogical mastery certificate"],
+      "testimonial": "Umar's lessons are very fast and effective."
+    },
+    {
+      "name": "Muhayyo Egamberganova",
+      "photo": "https://i.pravatar.cc/300?u=muhayyo",
+      "bio": "Master of beginner levels (A1). Experience working with children and adults.",
+      "qualifications": ["DSD II", "German language teaching methodology"],
+      "testimonial": "Learning the alphabet with Muhayyo is very interesting."
+    },
+    {
+      "name": "Xonzodabegim Dadamatova",
+      "photo": "https://i.pravatar.cc/300?u=xonzoda",
+      "bio": "Expert in higher levels (B2/C1). Academic German and TestDaF preparation.",
+      "qualifications": ["Goethe-Zertifikat C2", "Graduate of a German university"],
+      "testimonial": "Xonzoda's lessons create a real German atmosphere."
+    },
+    {
+      "name": "Dildora Fayzullayeva",
+      "photo": "https://i.pravatar.cc/300?u=dildora",
+      "bio": "Specialist in communicative methodology. Focuses on developing speaking skills.",
+      "qualifications": ["Goethe-Zertifikat B2", "Psychology of language learning"],
+      "testimonial": "With Dildora, I stopped being shy about speaking."
+    }
+  ]
+}
