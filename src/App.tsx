@@ -111,7 +111,7 @@ export default function App() {
 
   const handleConsultation = async (data: any) => {
     console.log('Konsultatsiya yuborildi:', data);
-    const success = await sendTelegramMessage(data.name, data.phone, 'Konsultatsiya', '-', '-');
+    const success = await sendTelegramMessage(data.name, data.phone, 'Konsultatsiya');
     return success;
   };
 
