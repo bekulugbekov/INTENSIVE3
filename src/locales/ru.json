@@ -134,14 +134,14 @@
   "instructors": [
     {
       "name": "Yoqubjon O‘rinov",
-      "photo": "https://i.pravatar.cc/300?u=yoqubjon",
+      "photo": "https://i.pravatar.cc/300?img=12",
       "bio": "Специалист по немецкому языку с 5-летним стажем. Проходил стажировку в Германии.",
       "qualifications": ["Goethe-Zertifikat C1", "Выпускник УзГУМЯ", "Стипендиат DAAD"],
       "testimonial": "Уроки Ёкубжона очень интерактивные и понятные."
     },
     {
       "name": "Foziljon Maxamadaliyev",
-      "photo": "https://i.pravatar.cc/300?u=foziljon",
+      "photo": "https://i.pravatar.cc/300?img=8",
       "bio": "Специалист по грамматике и разговорной речи. 4 года опыта преподавания.",
       "qualifications": ["TestDaF 4x4", "Филология немецкого языка"],
       "testimonial": "С учителем Фозилжоном грамматика учится очень легко."
@@ -155,14 +155,14 @@
     },
     {
       "name": "Umar Jovliyev",
-      "photo": "https://i.pravatar.cc/300?u=umar",
+      "photo": "https://i.pravatar.cc/300?img=68",
       "bio": "Специалист по интенсивным курсам. Для тех, кто хочет быстрого результата.",
       "qualifications": ["Goethe-Zertifikat B2", "Сертификат педагогического мастерства"],
       "testimonial": "Уроки Умара очень быстрые и эффективные."
     },
     {
       "name": "Muhayyo Egamberganova",
-      "photo": "https://i.pravatar.cc/300?u=muhayyo",
+      "photo": "https://i.pravatar.cc/300?u=foziljon",
       "bio": "Мастер начальных уровней (A1). Опыт работы с детьми и взрослыми.",
       "qualifications": ["DSD II", "Методика преподавания немецкого языка"],
       "testimonial": "С Мухайё изучение алфавита становится очень интересным."
@@ -176,7 +176,7 @@
     },
     {
       "name": "Dildora Fayzullayeva",
-      "photo": "https://i.pravatar.cc/300?u=dildora",
+      "photo": "https://i.pravatar.cc/300?img=47",
       "bio": "Специалист по коммуникативной методике. Фокусируется на развитии разговорных навыков.",
       "qualifications": ["Goethe-Zertifikat B2", "Психология изучения языков"],
       "testimonial": "С Дилдорой я перестал стесняться говорить."
