@@ -123,7 +123,7 @@
     { "teacher": "Botir Qudratov", "level": "A2", "schedule": ["16:00–18:00 (dush, chor, jum)", "18:00–20:00 (dush, chor, jum)", "20:00–22:00 (dush, chor, jum)"], "curriculum": "Murakkabroq grammatika, matnlar bilan ishlash.", "outcomes": "A2 darajasida tushunish va gapirish." },
     { "teacher": "Umar Jovliyev", "level": "A2", "schedule": ["16:00–18:00 (ses, pay, sha)", "18:00–20:00 (intensive)", "20:00–22:00 (ses, pay, sha)"], "curriculum": "Murakkabroq grammatika, matnlar bilan ishlash.", "outcomes": "A2 darajasida tushunish va gapirish." },
     { "teacher": "Muhayyo Egamberganova", "level": "A1", "schedule": ["11:00–13:00 (intensive)", "14:00–16:00 (intensive)"], "curriculum": "Alifbo, asosiy grammatika, kundalik so'zlashuv.", "outcomes": "A1 darajasida erkin muloqot qila olish." },
-    { "teacher": "Xonzodabegim Dadamatova", "level": "B1/B2/A2", "schedule": ["B2: 10:00–12:00 (ses, pay, sha)", "A2: 10:00–12:00 (dush, chor, jum)", "A2: 12:00–13:30 (intensive ind)"], "curriculum": "B1/B2 darajasi uchun murakkab grammatika va akademik nemis tili.", "outcomes": "B2 darajasida erkin muloqot va yozish." },
+    { "teacher": "Xonzodabegim Dadamatova", "level": "B2/A2", "schedule": ["B2: 10:00–12:00 (ses, pay, sha)", "A2: 10:00–12:00 (dush, chor, jum)", "A2: 12:00–13:30 (intensive ind)"], "curriculum": "B1/B2 darajasi uchun murakkab grammatika va akademik nemis tili.", "outcomes": "B2 darajasida erkin muloqot va yozish." },
     { "teacher": "Dildora Fayzullayeva", "level": "A1", "schedule": ["10:00–12:00 (intensive)", "12:00–14:00 (dush, chor, jum)"], "curriculum": "Alifbo, asosiy grammatika, kundalik so'zlashuv.", "outcomes": "A1 darajasida erkin muloqot qila olish." }
   ],
   "instructors_title": "Bizning o'qituvchilarimiz",
@@ -134,14 +134,14 @@
   "instructors": [
     {
       "name": "Yoqubjon O‘rinov",
-      "photo": "https://i.pravatar.cc/300?u=yoqubjon",
+      "photo": "https://i.pravatar.cc/300?img=12",
       "bio": "5 yillik tajribaga ega nemis tili mutaxassisi. Germaniyada malaka oshirgan.",
       "qualifications": ["Goethe-Zertifikat C1", "O'zDJTU bitiruvchisi", "DAAD stipendiyasi sohibi"],
       "testimonial": "Yoqubjon aka darslari juda interaktiv va tushunarli."
     },
     {
       "name": "Foziljon Maxamadaliyev",
-      "photo": "https://i.pravatar.cc/300?u=foziljon",
+      "photo": "https://i.pravatar.cc/300?img=8",
       "bio": "Grammatika va so'zlashuv bo'yicha mutaxassis. 4 yillik o'qituvchilik tajribasi.",
       "qualifications": ["TestDaF 4x4", "Nemis tili filologiyasi"],
       "testimonial": "Foziljon ustoz bilan grammatika juda oson o'rganiladi."
@@ -155,14 +155,14 @@
     },
     {
       "name": "Umar Jovliyev",
-      "photo": "https://i.pravatar.cc/300?u=umar",
+      "photo": "https://i.pravatar.cc/300?img=68",
       "bio": "Intensiv kurslar bo'yicha mutaxassis. Qisqa vaqtda natijaga erishishni xohlovchilar uchun.",
       "qualifications": ["Goethe-Zertifikat B2", "Pedagogik mahorat sertifikati"],
       "testimonial": "Umar aka darslari juda tez va samarali."
     },
     {
       "name": "Muhayyo Egamberganova",
-      "photo": "https://i.pravatar.cc/300?u=muhayyo",
+      "photo": "https://i.pravatar.cc/300?u=foziljon",
       "bio": "Boshlang'ich darajalar (A1) bo'yicha mahoratli o'qituvchi. Bolalar va kattalar bilan ishlash tajribasi.",
       "qualifications": ["DSD II", "Nemis tili o'qitish metodikasi"],
       "testimonial": "Muhayyo opa bilan nemis tili alifbosi juda qiziqarli."
@@ -176,7 +176,7 @@
     },
     {
       "name": "Dildora Fayzullayeva",
-      "photo": "https://i.pravatar.cc/300?u=dildora",
+      "photo": "https://i.pravatar.cc/300?img=47",
       "bio": "Kommunikativ metodika bo'yicha mutaxassis. So'zlashuv qobiliyatini rivojlantirishga e'tibor qaratadi.",
       "qualifications": ["Goethe-Zertifikat B2", "Til o'rganish psixologiyasi"],
       "testimonial": "Dildora opa bilan gapirishdan uyalmay qoldim."
