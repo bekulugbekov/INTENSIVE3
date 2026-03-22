@@ -126,14 +126,14 @@
   "instructors": [
     {
       "name": "Yoqubjon O‘rinov",
-      "photo": "https://i.pravatar.cc/300?u=yoqubjon",
+      "photo": "https://i.pravatar.cc/300?img=12",
       "bio": "German language specialist with 5 years of experience. Trained in Germany.",
       "qualifications": ["Goethe-Zertifikat C1", "Graduate of UzSWLU", "DAAD Scholarship recipient"],
       "testimonial": "Yoqubjon's classes are very interactive and easy to understand."
     },
     {
       "name": "Foziljon Maxamadaliyev",
-      "photo": "https://i.pravatar.cc/300?u=foziljon",
+      "photo": "https://i.pravatar.cc/300?img=8",
       "bio": "Specialist in grammar and conversation. 4 years of teaching experience.",
       "qualifications": ["TestDaF 4x4", "German Philology"],
       "testimonial": "Grammar is learned very easily with teacher Foziljon."
@@ -147,14 +147,14 @@
     },
     {
       "name": "Umar Jovliyev",
-      "photo": "https://i.pravatar.cc/300?u=umar",
+      "photo": "https://i.pravatar.cc/300?img=68",
       "bio": "Specialist in intensive courses. For those who want quick results.",
       "qualifications": ["Goethe-Zertifikat B2", "Pedagogical mastery certificate"],
       "testimonial": "Umar's lessons are very fast and effective."
     },
     {
       "name": "Muhayyo Egamberganova",
-      "photo": "https://i.pravatar.cc/300?u=muhayyo",
+      "photo": "https://i.pravatar.cc/300?u=foziljon",
       "bio": "Master of beginner levels (A1). Experience working with children and adults.",
       "qualifications": ["DSD II", "German language teaching methodology"],
       "testimonial": "Learning the alphabet with Muhayyo is very interesting."
@@ -168,7 +168,7 @@
     },
     {
       "name": "Dildora Fayzullayeva",
-      "photo": "https://i.pravatar.cc/300?u=dildora",
+      "photo": "https://i.pravatar.cc/300?img=47",
       "bio": "Specialist in communicative methodology. Focuses on developing speaking skills.",
       "qualifications": ["Goethe-Zertifikat B2", "Psychology of language learning"],
       "testimonial": "With Dildora, I stopped being shy about speaking."
