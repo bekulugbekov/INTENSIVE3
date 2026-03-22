@@ -115,7 +115,7 @@
     { "teacher": "Botir Qudratov", "level": "A2", "schedule": ["16:00–18:00 (Mon, Wed, Fri)", "18:00–20:00 (Mon, Wed, Fri)", "20:00–22:00 (Mon, Wed, Fri)"], "curriculum": "More complex grammar, working with texts.", "outcomes": "Understanding and speaking at A2 level." },
     { "teacher": "Umar Jovliyev", "level": "A2", "schedule": ["16:00–18:00 (Tue, Thu, Sat)", "18:00–20:00 (intensive)", "20:00–22:00 (Tue, Thu, Sat)"], "curriculum": "More complex grammar, working with texts.", "outcomes": "Understanding and speaking at A2 level." },
     { "teacher": "Muhayyo Egamberganova", "level": "A1", "schedule": ["11:00–13:00 (intensive)", "14:00–16:00 (intensive)"], "curriculum": "Alphabet, basic grammar, daily conversation.", "outcomes": "Fluent communication at A1 level." },
-    { "teacher": "Xonzodabegim Dadamatova", "level": "B1/B2/A2", "schedule": ["B1: 16:00–18:00 (Tue, Thu, Sat)", "B2: 10:00–12:00 (Tue, Thu, Sat)", "A2: 10:00–12:00 (Mon, Wed, Fri)", "A2: 12:00–13:30 (intensive ind)"], "curriculum": "Complex grammar and academic German for B1/B2 level.", "outcomes": "Fluent communication and writing at B2 level." },
+    { "teacher": "Xonzodabegim Dadamatova", "level": "B1/B2/A2", "schedule": ["B2: 10:00–12:00 (Tue, Thu, Sat)", "A2: 10:00–12:00 (Mon, Wed, Fri)", "A2: 12:00–13:30 (intensive ind)"], "curriculum": "Complex grammar and academic German for B1/B2 level.", "outcomes": "Fluent communication and writing at B2 level." },
     { "teacher": "Dildora Fayzullayeva", "level": "A1", "schedule": ["10:00–12:00 (intensive)", "12:00–14:00 (Mon, Wed, Fri)"], "curriculum": "Alphabet, basic grammar, daily conversation.", "outcomes": "Fluent communication at A1 level." }
   ],
   "instructors_title": "Our Instructors",
