@@ -1,0 +1,188 @@
+{
+  "home": "Bosh sahifa",
+  "courses": "Kurslar",
+  "about": "Biz haqimizda",
+  "contact": "Bog'lanish",
+  "results": "Natijalar",
+  "gallery": "Galereya",
+  "faq": "FAQ",
+  "language": "Til",
+  "theme": "Mavzu",
+  "enroll": "Kursga yozilish",
+  "hero_title": "Nemis tilini tez va professional darajada o'rganing!",
+  "hero_desc": "Germaniyada o'qish va ishlash imkoniyatlari, sertifikatlangan o'qituvchilar va tezkor natija.",
+  "consultation": "Konsultatsiya olish",
+  "courses_title": "Kurslarimiz",
+  "about_title": "Biz haqimizda",
+  "gallery_title": "Fotogalereya",
+  "gallery_img1": "Berlin shahri manzarasi",
+  "gallery_img2": "O'quv jarayoni",
+  "gallery_img3": "Germaniya arxitekturasi",
+  "gallery_img4": "Kutubxonada izlanish",
+  "gallery_img5": "Myunxen ko'chalari",
+  "gallery_img6": "Xalqaro talabalar",
+  "about_desc": "Bizning o'quv markazimiz nemis tilini o'rganishda eng samarali metodikalarni qo'llaydi. Tajribali o'qituvchilarimiz sizga qisqa vaqt ichida yuqori natijalarga erishishingizga yordam beradi.",
+  "contact_title": "Biz bilan bog'laning",
+  "contact_desc": "Savollaringiz bormi? Biz bilan bog'laning, sizga yordam berishdan mamnunmiz.",
+  "phone": "Telefon",
+  "social": "Ijtimoiy tarmoqlar",
+  "address": "Manzil",
+  "working_hours": "Ish vaqti",
+  "view_map": "Xaritada ko'rish",
+  "footer_desc": "Nemis tilini o'rganishda eng samarali metodikalarni qo'llaymiz. Germaniyada o'qish va ishlash uchun professional tayyorgarlik.",
+  "footer_links": "Tezkor havolalar",
+  "footer_contact": "Biz bilan bog'laning",
+  "footer_copyright": "Barcha huquqlar himoyalangan.",
+  "form_name": "Ism va Familiyangiz",
+  "form_phone": "Telefon raqamingiz",
+  "form_email": "Email manzilingiz",
+  "form_contact_method": "Bog'lanish usuli",
+  "form_contact_telegram": "Telegram",
+  "form_contact_phone": "Telefon qo'ng'irog'i",
+  "form_course": "Kurs darajasini tanlang",
+  "form_teacher": "O'qituvchini tanlang",
+  "form_schedule": "Darslar vaqti",
+  "form_submit": "Yuborish",
+  "form_sent_title": "Arizangiz yuborildi!",
+  "form_sent_desc": "Tez orada operatorlarimiz siz bilan bog'lanishadi.",
+  "form_sent_next_steps": "Keyingi qadamlar:",
+  "form_sent_step1": "Operatorlarimiz 24 soat ichida siz bilan bog'lanishadi.",
+  "form_sent_step2": "Tanlangan kurs va o'qituvchi haqida batafsil ma'lumot olasiz.",
+  "form_sent_step3": "Darslar boshlanish sanasi va joyi tasdiqlanadi.",
+  "form_error": "Xatolik yuz berdi. Iltimos, keyinroq qaytadan urinib ko'ring.",
+  "invalid_phone": "Telefon raqami noto'g'ri formatda",
+  "invalid_email": "Email manzili noto'g'ri formatda",
+  "contact_name": "Ismingiz",
+  "contact_form_desc": "Savollaringiz bormi? Ma'lumotlaringizni qoldiring va biz siz bilan tez orada bog'lanamiz.",
+  "form_privacy_note": "Tugmani bosish orqali siz shaxsiy ma'lumotlarni qayta ishlashga rozilik bildirasiz.",
+  "contact_sent_title": "Xabaringiz yuborildi!",
+  "testimonials_title": "Talabalarimiz fikrlari",
+  "testimonials_more": "Ko'proq ko'rish",
+  "view_more": "Barchasini ko'rish",
+  "show_less": "Kamroq ko'rsatish",
+  "years_experience": "Yillik tajriba",
+  "students_count": "Faol o'quvchilar",
+  "success_rate": "Muvaffaqiyat darajasi",
+  "about_german_lang": "Nemis tili",
+  "about_high_results": "yuqori natijalar",
+  "instructor_title": "Sertifikatlangan o'qituvchi",
+  "close": "Yopish",
+  "t1_name": "Dilnoza Karimova",
+  "t1_quote": "Nemis tilini o'rganishda bu markaz eng yaxshi tanlov bo'ldi.",
+  "t2_name": "Azizbek Rahimov",
+  "t2_quote": "Intensive Nemis tili markazi tufayli qisqa vaqt ichida B1 darajasiga erishdim.",
+  "t3_name": "Madina Sobirova",
+  "t3_quote": "Darslar juda tizimli va samarali. Ayniqsa, gapirish mashqlari menga juda katta yordam berdi.",
+  "t4_name": "Jasur Aliyev",
+  "t4_quote": "O'qituvchilar juda e'tiborli, har bir talaba bilan alohida ishlanadi.",
+  "t5_name": "Gulnora Tursunova",
+  "t5_quote": "Nemis tilini o'rganishni istaganlarga aynan shu markazni tavsiya qilaman.",
+  "t6_name": "Bobur Ismoilov",
+  "t6_quote": "Darslar juda qiziqarli va foydali ma'lumotlarga boy.",
+  "course_details": "Batafsil ma'lumot",
+  "course_more": "Batafsil",
+  "course_less": "Kamroq ko'rish",
+  "course_curriculum": "O'quv dasturi",
+  "course_outcomes": "Natijalar",
+  "course_progress": "Kurs yakunlanishi",
+  "faq_title": "Ko'p so'raladigan savollar",
+  "faq_list": [
+    {
+      "q": "Nemis tilini o'rganish qancha vaqt oladi?",
+      "a": "Bu sizning maqsadlaringiz va intensivlik darajangizga bog'liq. Odatda A1 darajasini 2-3 oyda, B1 darajasini esa 6-8 oyda o'zlashtirish mumkin."
+    },
+    {
+      "q": "Darslar qanday formatda o'tadi?",
+      "a": "Darslarimiz ham oflayn, ham onlayn formatda, interaktiv usullar yordamida o'tadi."
+    },
+    {
+      "q": "Markaz sertifikat beradimi?",
+      "a": "Ha, kursni muvaffaqiyatli tamomlagan talabalarga markazimizning sertifikati taqdim etiladi."
+    },
+    {
+      "q": "Darslarga qatnasha olmasam nima bo'ladi?",
+      "a": "Darslarimiz yozib olinadi va siz ularni keyinchalik qayta ko'rib chiqishingiz mumkin."
+    },
+    {
+      "q": "To'lovni bo'lib to'lash imkoniyati bormi?",
+      "a": "Ha, bizda o'quv to'lovlarini qismlarga bo'lib to'lash imkoniyati mavjud."
+    },
+    {
+      "q": "Guruhlarda nechta talaba bo'ladi?",
+      "a": "Guruhlarimizda sifatli ta'lim berish maqsadida 8-12 nafargacha talaba qabul qilinadi."
+    },
+    {
+      "q": "O'qituvchilar qanday malakaga ega?",
+      "a": "Barcha o'qituvchilarimiz xalqaro sertifikatlarga ega va Germaniyada tajriba orttirgan mutaxassislardir."
+    },
+    {
+      "q": "Qanday qilib ro'yxatdan o'tishim mumkin?",
+      "a": "Sayt orqali ro'yxatdan o'tishingiz yoki biz bilan telefon orqali bog'lanishingiz mumkin."
+    }
+  ],
+  "courses_list": [
+    { "teacher": "Yoqubjon O‘rinov", "level": "A1", "schedule": ["08:00–10:00 (ses, pay, sha)", "18:00–20:00 (intensive)", "20:00–22:00 (dush, chor, jum)"], "curriculum": "Alifbo, asosiy grammatika, kundalik so'zlashuv.", "outcomes": "A1 darajasida erkin muloqot qila olish." },
+    { "teacher": "Foziljon Maxamadaliyev", "level": "A1", "schedule": ["14:00–16:00 (ses, pay, sha)", "16:00–18:00 (ses, pay, sha)"], "curriculum": "Alifbo, asosiy grammatika, kundalik so'zlashuv.", "outcomes": "A1 darajasida erkin muloqot qila olish." },
+    { "teacher": "Botir Qudratov", "level": "A2", "schedule": ["16:00–18:00 (dush, chor, jum)", "18:00–20:00 (dush, chor, jum)", "20:00–22:00 (dush, chor, jum)"], "curriculum": "Murakkabroq grammatika, matnlar bilan ishlash.", "outcomes": "A2 darajasida tushunish va gapirish." },
+    { "teacher": "Umar Jovliyev", "level": "A2", "schedule": ["16:00–18:00 (ses, pay, sha)", "18:00–20:00 (intensive)", "20:00–22:00 (ses, pay, sha)"], "curriculum": "Murakkabroq grammatika, matnlar bilan ishlash.", "outcomes": "A2 darajasida tushunish va gapirish." },
+    { "teacher": "Muhayyo Egamberganova", "level": "A1", "schedule": ["11:00–13:00 (intensive)", "14:00–16:00 (intensive)"], "curriculum": "Alifbo, asosiy grammatika, kundalik so'zlashuv.", "outcomes": "A1 darajasida erkin muloqot qila olish." },
+    { "teacher": "Xonzodabegim Dadamatova", "level": "B2/A2", "schedule": ["B2: 10:00–12:00 (ses, pay, sha)", "A2: 10:00–12:00 (dush, chor, jum)", "A2: 12:00–13:30 (intensive ind)"], "curriculum": "B1/B2 darajasi uchun murakkab grammatika va akademik nemis tili.", "outcomes": "B2 darajasida erkin muloqot va yozish." },
+    { "teacher": "Dildora Fayzullayeva", "level": "A1", "schedule": ["10:00–12:00 (intensive)", "12:00–14:00 (dush, chor, jum)"], "curriculum": "Alifbo, asosiy grammatika, kundalik so'zlashuv.", "outcomes": "A1 darajasida erkin muloqot qila olish." }
+  ],
+  "instructors_title": "Bizning o'qituvchilarimiz",
+  "instructor_bio": "Biografiya",
+  "instructor_qualifications": "Malaka va sertifikatlar",
+  "instructor_testimonial": "Talabalar fikri",
+  "view_profile": "Profilni ko'rish",
+  "instructors": [
+    {
+      "name": "Yoqubjon O‘rinov",
+      "photo": "https://i.pravatar.cc/300?img=12",
+      "bio": "5 yillik tajribaga ega nemis tili mutaxassisi. Germaniyada malaka oshirgan.",
+      "qualifications": ["Goethe-Zertifikat C1", "O'zDJTU bitiruvchisi", "DAAD stipendiyasi sohibi"],
+      "testimonial": "Yoqubjon aka darslari juda interaktiv va tushunarli."
+    },
+    {
+      "name": "Foziljon Maxamadaliyev",
+      "photo": "https://i.pravatar.cc/300?img=8",
+      "bio": "Grammatika va so'zlashuv bo'yicha mutaxassis. 4 yillik o'qituvchilik tajribasi.",
+      "qualifications": ["TestDaF 4x4", "Nemis tili filologiyasi"],
+      "testimonial": "Foziljon ustoz bilan grammatika juda oson o'rganiladi."
+    },
+    {
+      "name": "Botir Qudratov",
+      "photo": "https://i.pravatar.cc/300?u=botir",
+      "bio": "A2 va B1 darajalari bo'yicha ekspert. Talabalarni imtihonlarga tayyorlashda katta tajribaga ega.",
+      "qualifications": ["ÖSD Zertifikat B2", "Xalqaro ta'lim metodikasi"],
+      "testimonial": "Botir aka bilan imtihonlardan qo'rqmasangiz ham bo'ladi."
+    },
+    {
+      "name": "Umar Jovliyev",
+      "photo": "https://i.pravatar.cc/300?img=68",
+      "bio": "Intensiv kurslar bo'yicha mutaxassis. Qisqa vaqtda natijaga erishishni xohlovchilar uchun.",
+      "qualifications": ["Goethe-Zertifikat B2", "Pedagogik mahorat sertifikati"],
+      "testimonial": "Umar aka darslari juda tez va samarali."
+    },
+    {
+      "name": "Muhayyo Egamberganova",
+      "photo": "https://i.pravatar.cc/300?u=foziljon",
+      "bio": "Boshlang'ich darajalar (A1) bo'yicha mahoratli o'qituvchi. Bolalar va kattalar bilan ishlash tajribasi.",
+      "qualifications": ["DSD II", "Nemis tili o'qitish metodikasi"],
+      "testimonial": "Muhayyo opa bilan nemis tili alifbosi juda qiziqarli."
+    },
+    {
+      "name": "Xonzodabegim Dadamatova",
+      "photo": "https://i.pravatar.cc/300?u=xonzoda",
+      "bio": "Yuqori darajalar (B2/C1) bo'yicha ekspert. Akademik nemis tili va TestDaF tayyorlovi.",
+      "qualifications": ["Goethe-Zertifikat C2", "Germaniya universiteti bitiruvchisi"],
+      "testimonial": "Xonzoda opa darslari haqiqiy nemis muhitini beradi."
+    },
+    {
+      "name": "Dildora Fayzullayeva",
+      "photo": "https://i.pravatar.cc/300?img=47",
+      "bio": "Kommunikativ metodika bo'yicha mutaxassis. So'zlashuv qobiliyatini rivojlantirishga e'tibor qaratadi.",
+      "qualifications": ["Goethe-Zertifikat B2", "Til o'rganish psixologiyasi"],
+      "testimonial": "Dildora opa bilan gapirishdan uyalmay qoldim."
+    }
+  ]
+}
