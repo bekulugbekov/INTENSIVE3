@@ -7,6 +7,7 @@ import en from './locales/en.json';
 i18n
   .use(initReactI18next)
   .init({
+    debug: false,
     resources: {
       uz: { translation: uz },
       ru: { translation: ru },
