@@ -16,6 +16,7 @@ import { ScrollToTop } from './components/ScrollToTop';
 import { sendTelegramMessage } from './services/telegramService';
 import { Logo } from './components/Logo';
 import { InstructorModal } from './components/InstructorModal';
+import { LoadingScreen } from './components/LoadingScreen';
 import { useData } from './context/DataContext';
 import { useAuth } from './context/AuthContext';
 import { LoginPage } from './components/LoginPage';
@@ -27,11 +28,7 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   const { user, loading } = useAuth();
   
   if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-site-gradient">
-        <Loader2 size={32} className="animate-spin text-emerald-600" />
-      </div>
-    );
+    return <LoadingScreen />;
   }
   
   if (!user) {
@@ -125,11 +122,7 @@ function AdminDashboardWrapper() {
   const { loading, error } = useData();
 
   if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-[#1A1D23]">
-        <Loader2 size={32} className="animate-spin text-emerald-600" />
-      </div>
-    );
+    return <LoadingScreen />;
   }
 
   if (error) {
@@ -355,11 +348,7 @@ function LandingPage() {
   };
 
   if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-site-gradient">
-        <p className="text-xl font-bold text-neutral-900 dark:text-[#EAEAEA]">Yuklanmoqda...</p>
-      </div>
-    );
+    return <LoadingScreen />;
   }
 
   if (error) {
@@ -561,7 +550,7 @@ function LandingPage() {
           <motion.div 
             className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat animate-slow-zoom" 
             style={{ 
-              backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1920&h=1080&auto=format&fit=crop')`,
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1280&h=720&auto=format&fit=crop&q=60')`,
               y: backgroundY
             }}
           ></motion.div>
