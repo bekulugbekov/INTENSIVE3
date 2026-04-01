@@ -124,41 +124,63 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Load cached data on initial mount
+  useEffect(() => {
+    const cachedCourses = localStorage.getItem('cached_courses');
+    const cachedInstructors = localStorage.getItem('cached_instructors');
+    const cachedSettings = localStorage.getItem('cached_settings');
+    const cachedSchedules = localStorage.getItem('cached_schedules');
+
+    if (cachedCourses) setCourses(JSON.parse(cachedCourses));
+    if (cachedInstructors) setInstructors(JSON.parse(cachedInstructors));
+    if (cachedSettings) setSettings(JSON.parse(cachedSettings));
+    if (cachedSchedules) setSchedules(JSON.parse(cachedSchedules));
+
+    // If we have cached critical data, we can set loading to false earlier
+    if (cachedCourses && cachedSettings) {
+      setLoading(false);
+    }
+  }, []);
+
   const fetchData = async (abortController?: AbortController) => {
-    setLoading(true);
+    // Only show loading if we don't have cached data
+    const hasCache = localStorage.getItem('cached_courses') && localStorage.getItem('cached_settings');
+    if (!hasCache) {
+      setLoading(true);
+    }
+    
     setError(null);
     const signal = abortController?.signal;
     
     try {
+      // 1. Fetch critical data first (needed for LandingPage)
       const [
-        leadsRes,
         coursesRes,
         instructorsRes,
         schedulesRes,
-        messagesRes,
         settingsRes
       ] = await Promise.all([
-        supabase.from('leads').select('*').order('date', { ascending: false }).abortSignal(signal as any),
         supabase.from('courses').select('*').abortSignal(signal as any),
         supabase.from('instructors').select('*').abortSignal(signal as any),
         supabase.from('schedules').select('*').abortSignal(signal as any),
-        supabase.from('messages').select('*').order('created_at', { ascending: false }).abortSignal(signal as any),
         supabase.from('settings').select('*').abortSignal(signal as any)
       ]);
 
       if (signal?.aborted) return;
 
-      const errors: Record<string, any> = {};
-      if (leadsRes.error) errors.leads = leadsRes.error;
-      if (coursesRes.error) errors.courses = coursesRes.error;
-      if (instructorsRes.error) errors.instructors = instructorsRes.error;
-      if (schedulesRes.error) errors.schedules = schedulesRes.error;
-      if (messagesRes.error) errors.messages = messagesRes.error;
-      if (settingsRes.error) errors.settings = settingsRes.error;
+      // Check for critical errors
+      const criticalErrors: Record<string, any> = {};
+      if (coursesRes.error) criticalErrors.courses = coursesRes.error;
+      if (instructorsRes.error) criticalErrors.instructors = instructorsRes.error;
+      if (schedulesRes.error) criticalErrors.schedules = schedulesRes.error;
+      if (settingsRes.error) criticalErrors.settings = settingsRes.error;
 
-      if (Object.keys(errors).length > 0) {
-        if (Object.keys(errors).length === 6) {
-          const firstError = Object.values(errors)[0];
+      if (Object.keys(criticalErrors).length > 0) {
+        // If we have cache, don't throw error, just log it
+        if (hasCache) {
+          console.error("Supabase fetch error, using cache:", criticalErrors);
+        } else {
+          const firstError = Object.values(criticalErrors)[0];
           let message = `Supabase connection error: ${firstError?.message || 'Unknown error'}`;
           
           if (firstError?.message?.toLowerCase().includes('fetch')) {
@@ -171,20 +193,9 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
           
           throw new Error(message);
         }
-        
-        const failedTables = Object.keys(errors).join(', ');
-        const isCriticalFailure = errors.settings || errors.courses;
-        
-        if (isCriticalFailure) {
-          const firstError = Object.values(errors).find(e => e !== null);
-          const errorMessage = firstError?.message || 'Unknown error';
-          throw new Error(`Critical data fetch error (${failedTables}): ${errorMessage}`);
-        }
       }
 
-      if (signal?.aborted) return;
-
-      // Process Instructors first so we can join them to courses
+      // Process critical data immediately
       let processedInstructors: Instructor[] = [];
       if (instructorsRes.data) {
         processedInstructors = instructorsRes.data.map(i => ({
@@ -195,10 +206,10 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
           testimonial: i.testimonial || '',
           specialty: i.specialty || i.role || ''
         }));
-        if (!signal?.aborted) setInstructors(processedInstructors);
+        setInstructors(processedInstructors);
+        localStorage.setItem('cached_instructors', JSON.stringify(processedInstructors));
       }
 
-      // Process Courses and join with instructors in memory
       if (coursesRes.data) {
         const mappedCourses = coursesRes.data.map(c => {
           const instructor = processedInstructors.find(i => i.id === (c.instructorId || c.instructor_id));
@@ -210,30 +221,20 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
             instructor: instructor 
           };
         });
-        if (!signal?.aborted) setCourses(mappedCourses);
+        setCourses(mappedCourses);
+        localStorage.setItem('cached_courses', JSON.stringify(mappedCourses));
       }
 
-      if (leadsRes.data && !signal?.aborted) setLeads(leadsRes.data);
-      
-      if (schedulesRes.data && !signal?.aborted) {
-        setSchedules(schedulesRes.data.map(s => ({
+      if (schedulesRes.data) {
+        const mappedSchedules = schedulesRes.data.map(s => ({
           ...s,
           days: s.days || []
-        })));
+        }));
+        setSchedules(mappedSchedules);
+        localStorage.setItem('cached_schedules', JSON.stringify(mappedSchedules));
       }
 
-      if (messagesRes.data && !signal?.aborted) {
-        setMessages(messagesRes.data.map((m: any) => ({
-          id: m.id,
-          sender_name: m.sender_name,
-          sender_phone: m.sender_phone,
-          message_text: m.message_text,
-          status: m.status,
-          created_at: m.created_at
-        })));
-      }
-
-      if (settingsRes.data && settingsRes.data.length > 0 && !signal?.aborted) {
+      if (settingsRes.data && settingsRes.data.length > 0) {
         const settingsData = settingsRes.data[0];
         const sanitizedSettings: Settings = {
           id: String(settingsData.id || '1'),
@@ -248,7 +249,32 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
           googleMapsEmbed: settingsData.googleMapsEmbed || ''
         };
         setSettings(sanitizedSettings);
+        localStorage.setItem('cached_settings', JSON.stringify(sanitizedSettings));
       }
+
+      // Set loading to false as soon as critical data is ready
+      setLoading(false);
+
+      // 2. Fetch non-critical data in the background (needed for AdminDashboard)
+      const [leadsRes, messagesRes] = await Promise.all([
+        supabase.from('leads').select('*').order('date', { ascending: false }).abortSignal(signal as any),
+        supabase.from('messages').select('*').order('created_at', { ascending: false }).abortSignal(signal as any)
+      ]);
+
+      if (signal?.aborted) return;
+
+      if (leadsRes.data) setLeads(leadsRes.data);
+      if (messagesRes.data) {
+        setMessages(messagesRes.data.map((m: any) => ({
+          id: m.id,
+          sender_name: m.sender_name,
+          sender_phone: m.sender_phone,
+          message_text: m.message_text,
+          status: m.status,
+          created_at: m.created_at
+        })));
+      }
+
     } catch (err: any) {
       if (err.name === 'AbortError' || err.message?.includes('AbortError') || err.message?.includes('signal is aborted')) {
         return;
