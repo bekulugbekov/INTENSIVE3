@@ -1,33 +1,51 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="INTENSIVE Center Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 
-# 🚀 AI-Powered Situational Language Simulator
-### Google AI Studio & Gemini Integration
+# 🏛️ INTENSIVE – Nemis Tili O‘quv Markazi Platformasi
+### Full-Stack Management System & Lead Generation Platform
 
-[Live Demo](https://ai.studio/apps/05b52311-2337-4393-9cf6-e6e4eff5c753) | [Report Bug](https://github.com/yourusername/repo/issues)
+[Live Demo](https://intensive-nemis-tili.uz/) | [Admin Panel](#) | [Report Bug](https://github.com/bekulugbekov/repo/issues)
 </div>
 
 ---
 
 ## 📝 Loyiha haqida
-Ushbu loyiha til o'rganuvchilar uchun sun'iy intellekt asosida yaratilgan vaziyatli simulyatordir. Foydalanuvchilar real hayotiy ssenariylarda muloqot qilish orqali o'z tillarini amaliy rivojlantirishlari mumkin. Loyiha **Google Gemini Pro** modelidan foydalangan holda foydalanuvchi javoblarini tahlil qiladi va real vaqtda qayta aloqa beradi.
+**INTENSIVE** — nemis tili o‘quv markazi uchun ishlab chiqilgan professional veb-platforma. Loyiha o‘quv markazi faoliyatini raqamlashtirish, yangi mijozlarni (leads) jalb qilish va o‘quv jarayonlarini boshqarishga xizmat qiladi. Tizim o‘z ichiga foydalanuvchilar uchun portal va ma’murlar uchun keng qamrovli **Admin Dashboard**ni oladi.
+
+## 🚀 Asosiy Imkoniyatlar
+
+### 🌐 Foydalanuvchilar uchun:
+- **Kurslar Katalogi:** Mavjud nemis tili kurslari haqida batafsil ma'lumot (davomiyligi, narxi, darajasi).
+- **O‘qituvchilar Profili:** Markaz mutaxassislari va ularning tajribasi bilan tanishish.
+- **Lead Generation:** Kursga yozilish yoki ma'lumot olish uchun qulay aloqa shakllari.
+- **Tezkor Xabarnoma:** Saytdan yuborilgan har bir ariza **Telegram Bot** orqali maxsus guruhga real-vaqt rejimida yuboriladi.
+
+### 🔐 Admin Panel (Dashboard):
+- **Auth System:** Supabase Authentication orqali himoyalangan kirish tizimi (faqat vakolatli xodimlar uchun).
+- **CRM & Message Management:** Kelib tushgan arizalarni boshqarish (Statuslar: *Pending, Contacted, Rejected, Enrolled*).
+- **Content Management (CMS):** Saytdagi kurslar, o'qituvchilar tarkibi va umumiy ma'lumotlarni dinamik o'zgartirish.
+- **Analytics:** Markaz faoliyati bo'yicha asosiy ko'rsatkichlar monitoringi.
 
 ## 🛠 Texnologiyalar
 * **Frontend:** React.js, Vite
-* **Backend Integration:** Node.js
-* **AI Engine:** Google AI Studio (Gemini Pro API)
+* **Backend:** Node.js, Express.js
+* **Database & Auth:** Supabase (PostgreSQL)
+* **Notifications:** Telegram Bot API
 * **Styling:** Tailwind CSS
 
-## ✨ Asosiy Imkoniyatlar
-- 🤖 **Real-time AI Conversation:** Gemini API yordamida aqlli va kontekstga mos suhbat qurish.
-- 🌍 **Situational Learning:** Turli xil ssenariylar (restoran, aeroport, ish suhbati va h.k.) orqali til o'rganish.
-- ⚡ **Fast Deployment:** Vite yordamida tezkor yuklanish va optimizatsiya.
-
-## 🚀 Mahalliy ishga tushirish (Local Setup)
-
-**Talablar:** Node.js (v18+)
-
-1. **Repositoryni klonlash:**
-   ```bash
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-   cd your-repo-name
+## 📂 Loyiha Strukturasi (Full-stack)
+/
+├── src/
+│   ├── components/      # Reusable UI komponentlari (shadcn, formalar, modallar)
+│   ├── context/         # Global holat va ma'lumotlar boshqaruvi (DataContext, AuthContext)
+│   ├── hooks/           # Maxsus React hooklari (useTeacherPortraits va boshqalar)
+│   ├── lib/             # Uchinchi tomon xizmatlari va kutubxonalar (Supabase mijoz sozlamalari)
+│   ├── locales/         # Til fayllari (i18n: en.json, uz.json, ru.json)
+│   ├── services/        # Tashqi API xizmatlari (Telegram bot xabarnomalari)
+│   ├── App.tsx          # Asosiy ilova komponenti
+│   ├── main.tsx         # Ilova kirish nuqtasi
+│   └── index.css        # Global uslublar (Tailwind CSS)
+├── index.html           # HTML kirish fayli
+├── package.json         # Loyiha bog'liqliklari va skriptlar
+├── tailwind.config.js   # Tailwind konfiguratsiyasi
+└── tsconfig.json        # TypeScript sozlamalari
