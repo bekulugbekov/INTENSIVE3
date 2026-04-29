@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="INTENSIVE Center Banner" src=">
+<img width="1200" height="475" alt="INTENSIVE Center Banner" src="intensive.jpg" />
 
 # 🏛️ INTENSIVE – Nemis Tili O‘quv Markazi Platformasi
 ### Full-Stack Management System & Lead Generation Platform
